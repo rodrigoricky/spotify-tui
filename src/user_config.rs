@@ -9,7 +9,7 @@ use tui::style::Color;
 
 const FILE_NAME: &str = "config.yml";
 const CONFIG_DIR: &str = ".config";
-const APP_CONFIG_DIR: &str = "spotify-tui";
+const APP_CONFIG_DIR: &str = "spotiflake";
 
 #[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
 pub struct UserTheme {
