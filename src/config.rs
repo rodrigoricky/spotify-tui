@@ -10,7 +10,7 @@ use std::{
 const DEFAULT_PORT: u16 = 8888;
 const FILE_NAME: &str = "client.yml";
 const CONFIG_DIR: &str = ".config";
-const APP_CONFIG_DIR: &str = "spotify-tui";
+const APP_CONFIG_DIR: &str = "spotiflake";
 const TOKEN_CACHE_FILE: &str = ".spotify_token_cache.json";
 
 #[derive(Default, Clone, Debug, PartialEq, Serialize, Deserialize)]
